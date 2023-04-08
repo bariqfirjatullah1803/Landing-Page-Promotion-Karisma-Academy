@@ -69,73 +69,27 @@
     padding: 17px 47px;
 }
 
-.section-2 {
+.section-kelas {
     background-image: url('../img/Vector.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     padding-top: 50px;
-}
-
-.section-2 .container {
-
     background-color: #F26F27;
-    border-radius: 12px;
-    padding: 30px 50px;
+    position: relative;
+    height: 368px;
+    margin-top: 300px;
 }
 
-.section-2 .container h1 {
-    font-family: 'Anybody';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 49px;
-    line-height: 51px;
-    color: #FFFFFF;
-    margin: 30px 0;
+.section-kelas .container {
+    position: absolute;
+    top: 10;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
 }
 
-.section-2 .card {
-    border: none;
-    border-radius: 40px;
-    padding: 20px;
-}
-
-.section-2 .card-img-top {
-    border-radius: 20px;
-}
-
-.section-2 .card .card-body {
-    margin: 0;
-}
-
-.section-2 .card .card-body .card-title {
-    font-family: 'Anybody';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 161.5%;
-    color: #000000;
-}
-
-.section-2 .card .card-body .card-text {
-    font-family: 'Anybody';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 161.5%;
-    color: #000000;
-    margin-bottom: 0;
-}
-
-.section-3 {
-    background-image: url('../img/Vector.png'), url('../img/Group\ 46.png');
-    background-repeat: no-repeat;
-    background-size: cover, contain;
-    background-position: center, left;
-    padding-top: 50px;
-}
-
-.section-3 .title-box {
+.section-kelas .title-box {
     background-color: #F26F27;
     border-radius: 8px;
     padding: 22px;
@@ -144,7 +98,7 @@
     margin-right: auto;
 }
 
-.section-3 h1 {
+.section-kelas h1 {
     margin: 0;
     padding: 0;
     font-family: 'Anybody';
@@ -156,11 +110,85 @@
     color: #FFFFFF;
 }
 
-.section-3 .content {
+.section-kelas .container .content {
+    background-color: #FFF;
+    box-shadow: 10px 4px 19px 5px rgba(0, 0, 0, 0.35);
+    -webkit-box-shadow: 10px 4px 19px 5px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 10px 4px 19px 5px rgba(0, 0, 0, 0.35);
+    border-radius: 12px;
+    margin-top: 50px;
+}
+
+.section-kelas .card {
+    border: none;
+    border-radius: 40px;
+    padding: 20px;
+}
+
+.section-kelas .card-img-top {
+    border-radius: 12px;
+    box-shadow: 11px 11px 23px -1px rgba(0, 0, 0, 0.35);
+    -webkit-box-shadow: 11px 11px 23px -1px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 11px 11px 23px -1px rgba(0, 0, 0, 0.35);
+}
+
+.section-kelas .card .card-body {
+    margin: 0;
+}
+
+.section-kelas .card .card-body .card-title {
+    font-family: 'Anybody';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 161.5%;
+    color: #F45400
+}
+
+.section-kelas .card .card-body .card-text {
+    font-family: 'Anybody';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 161.5%;
+    color: #000000;
+    margin-bottom: 0;
+}
+
+.section-tentang {
+    background-image: url('../img/Vector.png'), url('../img/Group\ 46.png');
+    background-repeat: no-repeat;
+    background-size: cover, contain;
+    background-position: center, left;
     padding-top: 50px;
 }
 
-.section-3 .content .content-desc {
+.section-tentang .title-box {
+    background-color: #F26F27;
+    border-radius: 8px;
+    padding: 22px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-tentang h1 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Anybody';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 49px;
+    line-height: 51px;
+
+    color: #FFFFFF;
+}
+
+.section-tentang .content {
+    padding-top: 100px;
+}
+
+.section-tentang .content .content-desc {
     font-family: 'Anybody';
     font-style: normal;
     font-weight: 400;
@@ -169,12 +197,10 @@
     /* or 55px */
 
     text-align: justify;
-
-    color: #000000;
 }
 
-.section-3 .content .content-slogan {
-    padding-top: 50px;
+.section-tentang .content .content-slogan {
+    padding-top: 20px;
     font-family: 'Anybody';
     font-style: normal;
     font-weight: 700;
@@ -186,28 +212,31 @@
     color: #13213B;
 }
 
-.section-3 .content .img-content {
-    padding-left: 100px;
-    padding-right: 100px;
+.section-tentang .content .img-content {
+    padding-left: 50px;
+    padding-right: 50px;
+    -webkit-filter: drop-shadow(5px 5px 5px #2222225e);
+    filter: drop-shadow(5px 5px 5px #2222225e);
 }
 
-.section-4 {
-    background-image: url('../img/Vector.png');
+.section-skema {
+    background-image: url('../img/Vector.png'), url('../img/Group\ 52.png');
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-size: cover,contain;
+    background-position: center,top;
     padding-top: 100px;
+    padding-bottom: 100px;
     position: relative;
 }
 
-.section-4 .container {
+.section-skema .container {
     border: 1px solid #000000;
     border-radius: 10px;
     padding: 50px 60px;
     background-color: #FFFFFF;
 }
 
-.section-4 .container h1 {
+.section-skema .container h1 {
     font-family: 'Anybody';
     font-style: normal;
     font-weight: 700;
@@ -218,7 +247,7 @@
 
 }
 
-.section-4 .container p {
+.section-skema .container p {
     width: 976px;
 
     font-family: 'Poppins';
@@ -229,8 +258,10 @@
 
     color: #383838;
 }
-
-.section-4 .table thead th {
+.section-skema .table-bordered tr,.section-skema .table-bordered td,.section-skema .table-bordered th{
+    border: 1px solid #000000 !important;
+}
+.section-skema .table thead th {
     background: #F16B25;
     padding: 30px 100px;
     font-family: 'Anybody';
@@ -245,7 +276,7 @@
 
 }
 
-.section-4 .table tbody tr td {
+.section-skema .table tbody tr td {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -260,8 +291,9 @@
     padding: 30px;
 }
 
-.section-4 .container h4 {
+.section-skema .container h4 {
     margin-top: 50px;
+    margin-bottom: 50px;
     font-family: 'Anybody';
     font-style: normal;
     font-weight: 700;
@@ -274,9 +306,9 @@
 
 }
 
-.section-4 .container .btn-table {
+.section-skema .container .btn-table {
     position: absolute;
-    bottom: -10%;
+    bottom: 5%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #F16B25;
@@ -292,25 +324,26 @@
     color: #FFFFFF;
 }
 
-.section-5 {
-    background-image: url('../img/Vector.png'), url('../img/Group\ 47.png');
+.section-syarat {
+    background-image: url('../img/Vector.png'), url('../img/Group\ 53.png');
     background-repeat: no-repeat;
-    background-size: cover, 300px;
-
-    background-position: center, bottom right;
-    padding-top: 200px;
+    background-size: cover, contain;
+    background-position: center, top right;
+    padding-top: 100px;
+    padding-bottom: 100px;
     position: relative;
+    background-color: #F16B25;
+
 }
 
-.section-5 .container {
-    position: relative;
+.section-syarat .container {
     border: 1px solid #000000;
     border-radius: 10px;
     padding: 50px 60px;
     background-color: #FFFFFF;
 }
 
-.section-5 .container h1 {
+.section-syarat .container h1 {
     background-color: #F16B25;
     width: 889px;
     padding: 20px 150px;
@@ -323,39 +356,26 @@
     line-height: 51px;
 
     color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
 
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    
 }
 
-.section-5 .container h3 {
-    margin-top: 50px;
-    text-align: center;
-    font-family: 'Anybody';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 33px;
-    /* identical to box height */
 
 
-    color: #13213B;
-
-}
-
-.section-5 .container table {
+.section-syarat .container table {
     margin-top: 10px;
 }
 
-.section-5 .container tbody tr td {
+.section-syarat .container tbody tr td {
     padding-bottom: 30px;
 
 
 }
 
-.section-5 .container .number {
+.section-syarat .container .number {
 
     font-family: 'Poppins';
     font-style: normal;
@@ -363,11 +383,11 @@
     font-size: 40px;
     line-height: 60px;
 
-    color: #383838;
+    color: #C18B00;
 
 }
 
-.section-5 .container .text {
+.section-syarat .container .text {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -379,7 +399,34 @@
     color: #383838;
 
 }
+.section-keuntungan {
+    background-image: url('../img/Vector.png'), url('../img/Group\ 54.png');
+    background-repeat: no-repeat;
+    background-size: cover, contain;
+    background-position: center, top;
+    padding-top: 50px;
+}
 
+.section-keuntungan .title-box {
+    background-color: #F26F27;
+    border-radius: 8px;
+    padding: 22px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-keuntungan h1 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Anybody';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 49px;
+    line-height: 51px;
+
+    color: #FFFFFF;
+}
 /* utilities */
 section .btn {
     border-radius: 24px;
